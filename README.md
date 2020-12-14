@@ -64,4 +64,4 @@ if you want to train and test DRGAN on your own datae, your just need to:
 If you use this code for your research, please cite our paper.
 
 ## 5. Contact
-if you have any questions, please email to: [tsmotlp](tsmotlp@163.com).
+if you have any questions, please email to: tsmotlp@163.com.
