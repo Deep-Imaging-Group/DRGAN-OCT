@@ -35,9 +35,9 @@
 ## 2. Installation
 * git clone https://github.com/tsmotlp/DRGAN
 
- `cd DRGAN`
+* `cd DRGAN`
  
- * Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command `pip install -r requirements.txt`.
+* Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command `pip install -r requirements.txt`.
 
 ## 3. Train and test DRGAN on your own data
 if you want to train and test DRGAN on your own datae, your just need to:
