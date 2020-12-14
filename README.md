@@ -42,7 +42,7 @@ python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
 **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Installation
-* 
+* Clone this repo:
 ```
 git clone https://github.com/tsmotlp/DRGAN
 
@@ -58,11 +58,7 @@ if you want to train and test DRGAN on your own datae, your just need to:
 * prepare you own train, validation and test data into directory `data`.
 * modify the hyper-parameters in **`configs.py`** to make it suitable for your own data.
 * follow the instructions of **`main.py`**.
-* To view training results and loss plots, run 
-```
-python -m visdom.server
-```
-and click the URL http://localhost:8097.
+* To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 
 ## 4. Citation
 If you use this code for your research, please cite our paper.
