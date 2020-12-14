@@ -1,6 +1,7 @@
-![image](https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png)
 # PyTorch DRGAN
 ----A Pytorch implementation of Noise-Powered Disentangled Representation for Unsupervised Speckle Reduction of Optical Coherence Tomography Images.
+
+![image](https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png)
 
 ## 1. File Description
 **data**
