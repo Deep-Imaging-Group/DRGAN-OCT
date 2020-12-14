@@ -30,23 +30,22 @@
 ```
 python main.py --mode train --start_epoch 1
 ``` 
-in the command line of your python environment.
 * if you want to resume the training process, run 
 ```
 python main.py --mode train --start_epoch epoch_you_want_to_resume
 ``` 
-in the command line of your python environment.
 * if you want to test the model, run 
 ```
 python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
 ``` 
-in the command line of your python environment.
 
 **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Installation
-* git clone https://github.com/tsmotlp/DRGAN
+* 
 ```
+git clone https://github.com/tsmotlp/DRGAN
+
 cd DRGAN
 ```
 * Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command 
