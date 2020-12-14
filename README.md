@@ -26,26 +26,26 @@
 * **`visualizer.py`**: the python file can be used for visualization of the losses and images.
 
 **main.py**: the script for running the code (train/validation/test).
-* if you want to train the model from scratch, run `python main.py --mode train --start_epoch 1` in the command line of your python environment.
-* if you want to resume the training process, run `python main.py --mode train --start_epoch epoch_you_want_to_resume` in the command line of your python environment.
-* if you want to test the model, run `python main.py --mode test --load_epoch parameters_epoch_you_want_to_test` in the command line of your python environment.
+* if you want to train the model from scratch, run ```python main.py --mode train --start_epoch 1``` in the command line of your python environment.
+* if you want to resume the training process, run ```python main.py --mode train --start_epoch epoch_you_want_to_resume``` in the command line of your python environment.
+* if you want to test the model, run ```python main.py --mode test --load_epoch parameters_epoch_you_want_to_test``` in the command line of your python environment.
 
 **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Installation
 * git clone https://github.com/tsmotlp/DRGAN
-* `cd DRGAN`
-* Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command `pip install -r requirements.txt`.
+* ```cd DRGAN```
+* Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command ```pip install -r requirements.txt```.
 
 ## 3. Train and test DRGAN on your own data
 if you want to train and test DRGAN on your own datae, your just need to:
 * prepare you own train, validation and test data into directory `data`.
 * modify the hyper-parameters in **`configs.py`** to make it suitable for your own data.
 * follow the instructions of **`main.py`**.
-* To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
+* To view training results and loss plots, run ```python -m visdom.server``` and click the URL http://localhost:8097.
 
 ## 4. Citation
 If you use this code for your research, please cite our paper.
 
-## 5. Contacts
+## 5. Contact
 if you have any questions, please email to: [tsmotlp](tsmotlp@163.com).
