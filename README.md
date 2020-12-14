@@ -34,14 +34,20 @@
 
 ## 2. Installation
 * git clone https://github.com/tsmotlp/DRGAN
- `cd DRGAN`
 
-## 2. Train and test DRGAN on your own data
+ `cd DRGAN`
+ 
+ * Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom) or just type the command `pip install -r requirements.txt`.
+
+## 3. Train and test DRGAN on your own data
 if you want to train and test DRGAN on your own datae, your just need to:
 * prepare you own train, validation and test data into directory `data`.
 * modify the hyper-parameters in **`configs.py`** to make it suitable for your own data.
 * follow the instructions of **`main.py`**.
 * To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 
-## 3. Contacts
+## 4. Citation
+If you use this code for your research, please cite our papers.
+
+## 5. Contacts
 if you have any questions, please email to: [tsmotlp](tsmotlp@163.com).
