@@ -26,9 +26,9 @@
 * **`visualizer.py`**: the python file can be used for visualization of the losses and images.
 
 **main.py**: the script for running the code (train/validation/test).
-* if you want to train the model from scratch, run **`python main.py --mode train --start_epoch 1`** in the command line of your python environment.
-* if you want to resume the training process, run **`python main.py --mode train --start_epoch epoch_you_want_to_resume`** in the command line of your python environment.
-* if you want to test the model, run **`python main.py --mode test --load_epoch parameters_epoch_you_want_to_test`** in the command line of your python environment.
+* if you want to train the model from scratch, run `python main.py --mode train --start_epoch 1` in the command line of your python environment.
+* if you want to resume the training process, run `python main.py --mode train --start_epoch epoch_you_want_to_resume` in the command line of your python environment.
+* if you want to test the model, run `python main.py --mode test --load_epoch parameters_epoch_you_want_to_test` in the command line of your python environment.
 
 **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
@@ -45,7 +45,7 @@ if you want to train and test DRGAN on your own datae, your just need to:
 * To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 
 ## 4. Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
 
 ## 5. Contacts
 if you have any questions, please email to: [tsmotlp](tsmotlp@163.com).
