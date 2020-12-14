@@ -2,6 +2,7 @@
 ----A Pytorch implementation of **`Noise-Powered Disentangled Representation for Unsupervised Speckle Reduction of Optical Coherence Tomography Images`**.
 
 ![image](https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png)
+<img src="https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png" width="280px"/>
 
 ## 1. File Description
 **data**
