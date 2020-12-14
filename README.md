@@ -44,7 +44,7 @@ python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
 ## 2. Installation
 * Clone this repo:
 ```
-git clone https://github.com/tsmotlp/DRGAN
+git clone https://github.com/tsmotlp/DRGAN-OCT
 
 cd DRGAN
 ```
