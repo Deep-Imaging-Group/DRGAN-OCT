@@ -1,7 +1,7 @@
 # PyTorch DRGAN
-----A Pytorch implementation of `Noise-Powered Disentangled Representation for Unsupervised Speckle Reduction of Optical Coherence Tomography Images`.
+----A Pytorch implementation of **`Noise-Powered Disentangled Representation for Unsupervised Speckle Reduction of Optical Coherence Tomography Images`**.
 
-![image](img src="github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png)
+![image](https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png)
 
 ## 1. File Description
 **data**
@@ -26,17 +26,17 @@
 * **`visualizer.py`**: the python file can be used for visualization of the losses and images.
 
 **main.py**: the script for running the code.
-* if you want to train the model from scratch, run `python main.py --mode train --start_epoch 1` in the command line of your python environment.
-* if you want to resume the training process, run `python main.py --mode train --start_epoch epoch_you_want_to_resume` in the command line of your python environment.
-* if you want to test the model, run `python main.py --mode test --load_epoch parameters_epoch_you_want_to_test` in the command line of your python environment.
+* if you want to train the model from scratch, run **`python main.py --mode train --start_epoch 1`** in the command line of your python environment.
+* if you want to resume the training process, run **`python main.py --mode train --start_epoch epoch_you_want_to_resume`** in the command line of your python environment.
+* if you want to test the model, run **`python main.py --mode test --load_epoch parameters_epoch_you_want_to_test`** in the command line of your python environment.
 
 **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Train and test DRGAN on your own data
 if you want to train and test DRGAN on your own datae, your just need to:
 * prepare you own train, validation and test data into directory `data`.
-* modify the hyper-parameters in `configs.py` to make it suitable for your own data.
-* follow the instructions of `main.py`.
+* modify the hyper-parameters in **`configs.py`** to make it suitable for your own data.
+* follow the instructions of **`main.py`**.
 
 ## 4. Contacts
 if you have any questions, please email to: [tsmotlp](tsmotlp@163.com).
