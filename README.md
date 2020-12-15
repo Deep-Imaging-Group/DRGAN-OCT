@@ -4,11 +4,11 @@
 <div align=center><img src="https://github.com/tsmotlp/DRGAN/blob/main/images/Fig1.png" width="700px"/></div>
 
 ## 1. File Description
-**data**
+> **data**
 * **`train_valid`**: the directory to store data for training and validation.
 * **`test`**: the directory to store test data.
 
-**dataset**
+> **dataset**
 * **`dataset.py`**: python script to build pytorch `Dataset` and `DataLoader`.
 
 **models**
