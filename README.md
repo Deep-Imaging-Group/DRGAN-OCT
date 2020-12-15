@@ -27,17 +27,17 @@
 
 > **main.py**: the script for running the code (train/validation/test).
 > * if you want to train the model from scratch, run 
-```
-python main.py --mode train --start_epoch 1
-``` 
+> ```
+> python main.py --mode train --start_epoch 1
+> ``` 
 > * if you want to resume the training process, run 
-```
-python main.py --mode train --start_epoch epoch_you_want_to_resume
-``` 
+> ```
+> python main.py --mode train --start_epoch epoch_you_want_to_resume
+> ``` 
 > * if you want to test the model, run 
-```
-python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
-``` 
+> ```
+> python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
+> ``` 
 
 > **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
