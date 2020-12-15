@@ -25,7 +25,7 @@
 > * **`metrics.py`**: the python file can be used to store and modify the evaluation metrics.
 > * **`visualizer.py`**: the python file can be used for visualization of the losses and images.
 
-> **main.py**: the script for running the code (train/validation/test).
+> **`main.py`**: the script for running the code (train/validation/test).
 > * if you want to train the model from scratch, run 
 > ```
 > python main.py --mode train --start_epoch 1
@@ -39,7 +39,7 @@
 > python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
 > ``` 
 
-> **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
+> **`configs.py`**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Installation
 * Clone this repo:
