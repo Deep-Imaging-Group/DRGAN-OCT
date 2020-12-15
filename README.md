@@ -5,41 +5,41 @@
 
 ## 1. File Description
 > **data**
-* **`train_valid`**: the directory to store data for training and validation.
-* **`test`**: the directory to store test data.
+> * **`train_valid`**: the directory to store data for training and validation.
+> * **`test`**: the directory to store test data.
 
 > **dataset**
-* **`dataset.py`**: python script to build pytorch `Dataset` and `DataLoader`.
+> * **`dataset.py`**: python script to build pytorch `Dataset` and `DataLoader`.
 
-**models**
-* **`base_model.py`**: the father class implementing the network building, setup input, forward computation, backpropagation, network saving and loading, learning rate schedulers, and visualization of losses and metrics.
-* **`drgan_model.py`**: containing the forward and backward process of our proposed model.
-* **`drgan_nets.py`**: the implementation of our proposed network achitectures, such as `Encoder`, `Decoder` etc.
+> **models**
+> * **`base_model.py`**: the father class implementing the network building, setup input, forward computation, backpropagation, network saving and loading, learning rate schedulers, and visualization of losses and metrics.
+> * **`drgan_model.py`**: containing the forward and backward process of our proposed model.
+> * **`drgan_nets.py`**: the implementation of our proposed network achitectures, such as `Encoder`, `Decoder` etc.
 
-**run**
-* **`trainer.py`**: a basic template python file for training from scratch, or resuming training, and validation the `Model`.
-* **`tester.py`**: a basic template python file for testing the `Model`.
+> **run**
+> * **`trainer.py`**: a basic template python file for training from scratch, or resuming training, and validation the `Model`.
+> * **`tester.py`**: a basic template python file for testing the `Model`.
 
-**utils**
-* **`help_functions.py`**: the python file can be used to store and modify the model initilization strategies and optimizer scheduler settings.
-* **`metrics.py`**: the python file can be used to store and modify the evaluation metrics.
-* **`visualizer.py`**: the python file can be used for visualization of the losses and images.
+> **lib**
+> * **`help_functions.py`**: the python file can be used to store and modify the model initilization strategies and optimizer scheduler settings.
+> * **`metrics.py`**: the python file can be used to store and modify the evaluation metrics.
+> * **`visualizer.py`**: the python file can be used for visualization of the losses and images.
 
-**main.py**: the script for running the code (train/validation/test).
-* if you want to train the model from scratch, run 
+> **main.py**: the script for running the code (train/validation/test).
+> * if you want to train the model from scratch, run 
 ```
 python main.py --mode train --start_epoch 1
 ``` 
-* if you want to resume the training process, run 
+> * if you want to resume the training process, run 
 ```
 python main.py --mode train --start_epoch epoch_you_want_to_resume
 ``` 
-* if you want to test the model, run 
+> * if you want to test the model, run 
 ```
 python main.py --mode test --load_epoch parameters_epoch_you_want_to_test
 ``` 
 
-**configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
+> **configs.py**: the python file can be used to store and modify the hyper-parameters for training, validation and testing process.
 
 ## 2. Installation
 * Clone this repo:
