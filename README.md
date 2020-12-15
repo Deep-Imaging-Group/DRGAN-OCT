@@ -5,8 +5,8 @@
 
 ## 1. File Description
 > **data**
-> * **`train_valid`**: the directory to store data for training and validation.
-> * **`test`**: the directory to store test data.
+> * **`train_valid`**: the folder to store data for training and validation.
+> * **`test`**: the folder to store test data.
 
 > **dataset**
 > * **`dataset.py`**: python script to build pytorch `Dataset` and `DataLoader`.
@@ -51,8 +51,8 @@ cd DRGAN
 * Install PyTorch 1.0+ and other dependencies (e.g., Pillow, torchvision, visdom)
 
 ## 3. Train and test DRGAN on your own data
-if you want to train and test DRGAN on your own datae, your just need to:
-* prepare you own train, validation and test data into directory `data`.
+if you want to train and test DRGAN on your own data, your just need to:
+* prepare you own train, validation and test data into folder `data`.
 * modify the hyper-parameters in **`configs.py`** to make it suitable for your own data.
 * follow the instructions of **`main.py`**.
 * To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
