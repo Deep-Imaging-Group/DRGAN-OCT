@@ -60,5 +60,18 @@ if you want to train and test DRGAN on your own data, your just need to:
 ## 4. Citation
 If you use this code for your research, please cite our paper.
 
+```
+@ARTICLE{9296372,
+  author={Y. {Huang} and W. {Xia} and Z. {Lu} and Y. {Liu} and H. {Chen} and J. {Zhou} and L. {Fang} and Y. {Zhang}},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Noise-Powered Disentangled Representation for Unsupervised Speckle Reduction of Optical Coherence Tomography Images}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2020.3045207}}
+```
+  
+
 ## 5. Contact
 if you have any questions, please email to: tsmotlp@163.com.
